@@ -1,9 +1,4 @@
-/**
- * FHP Ghost Unit — Vehicle Configuration Checker
- * MASTER VEHICLE GUIDES — Date of Issue: 10/16/25 | Last updated: 12/12/25 | Approved by: GU-001 | saabsterz
- * SRT One = standard for additional lighting unless otherwise stated.
- * If a customization option is not listed, you may not use it. Black decals for all; HICOM may use White. HR/SHR may request HICOM White Decal permissions.
- */
+
 
 (function () {
   "use strict";
@@ -148,7 +143,7 @@
       },
       SGTP: {
         ALLOWED_CARS: [
-          "Bullhorn Pueblo Pursuit 2018",
+          "Bullhorn Pueblo Pursuit 2020",
           "Falcon Interceptor Utility 2019",
           "Falcon Interceptor Utility 2013"
         ],
