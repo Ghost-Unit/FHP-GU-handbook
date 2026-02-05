@@ -68,7 +68,7 @@
         REAR_LIGHTS: ["Rear Window Lights"],
         LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners"],
         ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR"],
-        DECALS: ["Black Decal", "White Decal"]
+        DECALS: ["Black Decal", "White Decal","Grey Decal"]
       }
     },
 
@@ -293,7 +293,7 @@
         }
       },
       SPOTLIGHTS: ["LED Spotlight", "Passenger Spotlight (Optional)"],
-      NOTES: ["All ranks: Black Decals only. HR/SHR may request HICOM White Decal permissions. HICOM may use White Decals.", "HICOM: Pushbar (Optional), ALPR (Optional), Spotlights (Optional)."]
+      NOTES: ["All ranks: Black Decals only. HR/SHR may request HICOM White/Grey Decal permissions. HICOM may use White/Grey Decals.", "HICOM: Pushbar (Optional), ALPR (Optional), Spotlights (Optional)."]
     }
   };
 
@@ -487,7 +487,7 @@
     }
     if (decalSelect) {
       decalSelect.innerHTML = "<option value=''>Select Decal</option>";
-      ["Black Decal", "White Decal"].forEach(d => {
+      ["Black Decal", "White Decal", "Grey Decal"].forEach(d => {
         const o = document.createElement("option");
         o.value = d;
         o.textContent = d;
@@ -504,6 +504,7 @@
     if (div && rank && rulesData[div] && rulesData[div][rank]) {
       const decals = rulesData[div][rank].DECALS || ["Black Decal"];
       if (decals.includes("White Decal")) options.push("White Decal");
+      if (decals.includes("Grey Decal")) options.push("Grey Decal")
     }
     decalSelect.innerHTML = "<option value=''>Select Decal</option>";
     options.forEach(d => {
