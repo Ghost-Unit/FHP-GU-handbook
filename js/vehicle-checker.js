@@ -209,7 +209,7 @@
         ],
         OPTIONAL_LIGHTING: ["LED Spotlight (Optional)", "Passenger Spotlight (Optional)"],
         ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
-        DECALS: ["Black Decal", "White Decal"]
+        DECALS: ["Black Decal", "White Decal", "Grey Decal"]
       }
     }
   };
