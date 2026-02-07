@@ -87,7 +87,7 @@
           "Fog Lights",
           "Small Siderunners"
         ],
-        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "ALPR"],
+        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "ALPR","Low Profile Siren"],
         DECALS: ["Black Decal"]
       },
       "Operative+": {
@@ -100,7 +100,7 @@
           "Fog Lights",
           "Small Siderunners"
         ],
-        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "ALPR"],
+        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "ALPR","Low Profile Siren"],
         DECALS: ["Black Decal"]
       },
       "Senior Operative+": {
@@ -118,7 +118,7 @@
           "Small Siderunners",
           "Siderunners"
         ],
-        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "Flood Lights", "ALPR"],
+        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "Flood Lights", "ALPR","Low Profile Siren"],
         DECALS: ["Black Decal"]
       }
     },
@@ -138,7 +138,7 @@
           "Fog Lights",
           "Small Siderunners"
         ],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR","Low Profile Siren"],
         DECALS: ["Black Decal"]
       },
       SGTP: {
@@ -155,7 +155,7 @@
           "Fog Lights",
           "Siderunners"
         ],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR","Low Profile Siren"],
         DECALS: ["Black Decal"]
       },
       HR: {
@@ -171,7 +171,7 @@
           "Fender Lights",
           "Siderunners"
         ],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR","Low Profile Siren"],
         DECALS: ["Black Decal"]
       },
       SHR: {
@@ -190,7 +190,7 @@
           "Siderunners"
         ],
         OPTIONAL_LIGHTING: ["LED Spotlight (Optional)", "Passenger Spotlight (Optional)"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR","Low Profile Siren"],
         DECALS: ["Black Decal"]
       },
       HICOM: {
@@ -208,7 +208,7 @@
           "Siderunners"
         ],
         OPTIONAL_LIGHTING: ["LED Spotlight (Optional)", "Passenger Spotlight (Optional)"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR","Low Profile Siren"],
         DECALS: ["Black Decal", "White Decal", "Grey Decal"]
       }
     }
