@@ -161,6 +161,7 @@
       HR: {
         ALLOWED_CARS: [
           "Chevlon Camion PPV 2021",
+          "Falcon Interceptor Utility 2024",
           "Chevlon Platoro PPV 2019",
         ],
         REAR_LIGHTS: ["Rear Light Stick"],
@@ -177,7 +178,6 @@
       SHR: {
         ALLOWED_CARS: [
           "Bullhorn Prancer Pursuit 2011",
-          "Falcon Interceptor Utility 2024",
           "Falcon Estallion 2024"
         ],
         REAR_LIGHTS: ["Rear Light Stick"],
